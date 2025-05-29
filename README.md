@@ -67,15 +67,14 @@ index.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/i
 
 addProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
 
-updateProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
+updateProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp
 
 deleteProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdelete.jsp
 
 displayProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdisplay.jsp
 
-report.jsp : 
+report_form.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp
 
-report_result.jsp : 
 
 ✅ STEP 5: Run the Project
 Right-click the project > Run As > Run on Server
@@ -86,7 +85,7 @@ http://localhost:8080/ProductMangementSystem/
 🔐 Default URL Pages
 
 Add Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
-Update Fee: /updateFee.jsp
+Update Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp
 Delete Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
-View Records: /displayFee.jsp
-Report: /report.jsp
+View Records: 
+Report: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp
