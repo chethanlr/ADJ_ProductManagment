@@ -33,7 +33,7 @@ com
 └── com.servlet
 
 ✅ STEP 3: Add Java Files to Appropriate Packages
-🔹 com.util
+🔹 https://github.com/chethanlr/ADJ_ProductManagment/tree/main/com/dao
 
 Add: DatabaseConnection.java
 🔹 com.model
