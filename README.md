@@ -34,10 +34,10 @@ com
 
 
 🔹 com.model
-Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/model/Product.class
+Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/model/Product.java
 
 🔹 com.dao
-Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/ProductDAO.class
+Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/ProductDAO.java
 
 🔹 com.servlet
 
