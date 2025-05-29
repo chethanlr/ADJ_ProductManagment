@@ -65,28 +65,28 @@ This folder contains:
 
 index.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/index.jsp
 
-addProduct.jsp : 
+addProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
 
-updateProduct.jsp : 
+updateProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
 
-deleteProduct.jsp : 
+deleteProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdelete.jsp
 
-displayProduct.jsp : 
+displayProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdisplay.jsp
 
 report.jsp : 
 
-reportCriteria.jsp : 
+report_result.jsp : 
 
 ✅ STEP 5: Run the Project
 Right-click the project > Run As > Run on Server
 Select Apache Tomcat Server and start
 Open in browser:
-http://localhost:8080/CollegeFeeMangementSystem/
+http://localhost:8080/ProductMangementSystem/
 
 🔐 Default URL Pages
 
-Add Fee: /addFee.jsp
+Add Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
 Update Fee: /updateFee.jsp
-Delete Fee: /deleteFee.jsp
+Delete Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
 View Records: /displayFee.jsp
 Report: /report.jsp
