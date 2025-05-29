@@ -1,91 +1,112 @@
-# Installation Guide for Product Management System (JSP + Servlet + MySQL)
+# Product Management System
 
-✅ STEP 1: Create the Database
-First, open your MySQL client (like XAMPP/phpMyAdmin).
-# Create a database named:
+A dynamic web application to manage product inventory using **JSP**, **Servlets**, and **MySQL**.
 
-inventory 
+---
 
-Then import the following SQL file into your database:
-https://github.com/chethanlr/ADJ_ProductManagment/blob/main/mysqlconnection.sql
+##  Technologies Used
 
-✅ STEP 2: Set Up the Project in Eclipse
-1. Create a New Dynamic Web Project
-#Open Eclipse
-#Go to File → New → Dynamic Web Project
-#Give your project a name (e.g., CollegeFeeMangementSystem)
-3. Add MySQL Connector
-Download MySQL Connector from the official website:
-📎 MySQL Connector Link
-Extract the .jar file and place it in:
-WebContent/WEB-INF/lib
+* Frontend: HTML, CSS, JSP
+* Backend: Java Servlets, JDBC
+* Database: MySQL
+* Tools: Eclipse IDE, Apache Tomcat
+
+---
+
+##  Installation Guide
+
+###  STEP 1: Create the Database
+
+1. Open your MySQL tool (like XAMPP/phpMyAdmin).
+2. Create a database:
+
+```sql
+CREATE DATABASE inventory;
+```
+
+3. Import the SQL schema:
+   📌 [`mysqlconnection.sql`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/mysqlconnection.sql)
+
+---
+
+### STEP 2: Setup the Project in Eclipse
+
+1. Create a **Dynamic Web Project** in Eclipse (any name).
+2. Download the MySQL Connector:
+   📌 [MySQL Connector/J](https://dev.mysql.com/downloads/connector/j/)
+3. Place the JAR file in:
+   `WebContent/WEB-INF/lib`
+
+---
+
+##  Project Structure
+
+###  Package Layout (`src/`)
+
+```
+com/
+├── util/
+├── model/
+│   └── Product.java
+├── dao/
+│   └── ProductDAO.java
+└── servlet/
+    ├── AddProductServlet.java
+    ├── UpdateProductServlet.java
+    ├── DeleteProductServlet.java
+    ├── DisplayProductsServlet.java
+    ├── ReportServlet.java
+    └── ReportCriteriaServlet.java
+```
+
+### File Links
+
+* Model:
+  📌 [`Product.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/model/Product.java)
+
+* DAO:
+  📌 [`ProductDAO.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/ProductDAO.java)
+
+* Servlets:
+  📌 [`AddProductServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/AddProductServlet.java)
+  📌 [`UpdateProductServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/UpdateProductServlet.java)
+  📌 [`DeleteProductServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DeleteProductServlet.java)
+  📌 [`DisplayProductsServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductsServlet.java)
+  📌 [`ReportServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportServlet.java)
+  📌 [`ReportCriteriaServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportCriteriaServlet.java)
+
+---
+
+## Web Content
+
+Place all `.jsp` and frontend files inside the `WebContent/` directory.
+
+* 📌 [`index.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/index.jsp)
+* 📌 [`addProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp)
+* 📌 [`updateProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp)
+* 📌 [`deleteProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdelete.jsp)
+* 📌 [`displayProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdisplay.jsp)
+* 📌 [`report_form.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp)
+
+---
+
+##  Running the Project
+
+1. Right-click the project > **Run As** > **Run on Server**.
+2. Choose Apache Tomcat Server and start it.
+3. Open your browser:
+   `http://localhost:8080/ProductMangementSystem/`
+
+---
+
+##  Direct JSP URLs
+
+* Add Product: [`productadd.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp)
+* Update Product: [`productupdate.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp)
+* Delete Product: [`productdelete.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdelete.jsp)
+* View Products: [`productdisplay.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdisplay.jsp)
+* Reports: [`report_form.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp)
+
+---
 
 
-3. Create the Java Package Structure
-
-Under the src folder, create the following structure:
-com
-├── com.util
-├── com.model
-├── com.dao
-└── com.servlet
-
-✅ STEP 3: Add Java Files to Appropriate Packages
-
-
-🔹 com.model
-Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/model/Product.java
-
-🔹 com.dao
-Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/ProductDAO.java
-
-🔹 com.servlet
-
-Add the following files:
-
-AddProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/AddProductServlet.java
-
-UpdateproductServlet.java : 
-https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/UpdateProductServlet.java
-
-DeleteProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DeleteProductServlet.java
-
-DisplayProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductsServlet.java
-
-ReportServlet.java :
-https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportServlet.java
-
-ReportCriteriaServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportCriteriaServlet.java
-
-✅ STEP 4: Add Front-End Files (JSP, HTML, CSS)
-Go to WebContent folder
-Add all front-end files from this folder:
-📎 Web Files (JSP/HTML)
-This folder contains:
-
-index.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/index.jsp
-
-addProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
-
-updateProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp
-
-deleteProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdelete.jsp
-
-displayProduct.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdisplay.jsp
-
-report_form.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp
-
-
-✅ STEP 5: Run the Project
-Right-click the project > Run As > Run on Server
-Select Apache Tomcat Server and start
-Open in browser:
-http://localhost:8080/ProductMangementSystem/
-
-🔐 Default URL Pages
-
-Add Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
-Update Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp
-Delete Fee: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp
-View Records: 
-Report: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp
