@@ -3,15 +3,17 @@
 ✅ STEP 1: Create the Database
 First, open your MySQL client (like XAMPP/phpMyAdmin).
 # Create a database named:
+
 inventory 
+
 Then import the following SQL file into your database:
 Download SQL File
 
 ✅ STEP 2: Set Up the Project in Eclipse
 1. Create a New Dynamic Web Project
-Open Eclipse
-Go to File → New → Dynamic Web Project
-Give your project a name (e.g., CollegeFeeMangementSystem)
+#Open Eclipse
+#Go to File → New → Dynamic Web Project
+#Give your project a name (e.g., CollegeFeeMangementSystem)
 3. Add MySQL Connector
 Download MySQL Connector from the official website:
 📎 MySQL Connector Link
@@ -29,11 +31,10 @@ com
 └── com.servlet
 
 ✅ STEP 3: Add Java Files to Appropriate Packages
-🔹 com.util
-Add: DatabaseConnection.java
+
 
 🔹 com.model
-Add: FeePayment.java
+Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/model/Product.class
 
 🔹 com.dao
 Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/ProductDAO.class
@@ -43,11 +44,17 @@ Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/Product
 Add the following files:
 
 AddFeePaymentServlet.java
+
 UpdateFeePaymentServlet.java
+
 DeleteFeePaymentServlet.java
+
 DisplayFeePaymentsServlet.java
+
 ReportServlet.java
+
 ReportCriteriaServlet.java
+
 ✅ STEP 4: Add Front-End Files (JSP, HTML, CSS)
 Go to WebContent folder
 Add all front-end files from this folder:
