@@ -50,7 +50,7 @@ https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/UpdatePr
 
 DeleteProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DeleteProductServlet.class
 
-DisplayProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductServlet.class
+DisplayProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductsServlet.class
 
 ReportServlet.java :
 https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportServlet.class
