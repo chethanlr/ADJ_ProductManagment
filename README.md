@@ -63,20 +63,28 @@ Add all front-end files from this folder:
 📎 Web Files (JSP/HTML)
 This folder contains:
 
-index.jsp
-addFee.jsp
-updateFee.jsp
-deleteFee.jsp
-displayFee.jsp
-report.jsp
-reportCriteria.jsp
-styles.css
+index.jsp : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/index.jsp
+
+addProduct.jsp : 
+
+updateProduct.jsp : 
+
+deleteProduct.jsp : 
+
+displayProduct.jsp : 
+
+report.jsp : 
+
+reportCriteria.jsp : 
+
 ✅ STEP 5: Run the Project
 Right-click the project > Run As > Run on Server
 Select Apache Tomcat Server and start
 Open in browser:
 http://localhost:8080/CollegeFeeMangementSystem/
+
 🔐 Default URL Pages
+
 Add Fee: /addFee.jsp
 Update Fee: /updateFee.jsp
 Delete Fee: /deleteFee.jsp
