@@ -69,15 +69,15 @@ com/
 
 * Servlets:
   -  [`AddProductServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/AddProductServlet.java)
-  -  
+     
   -  [`UpdateProductServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/UpdateProductServlet.java)
-  -  
+     
   -  [`DeleteProductServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DeleteProductServlet.java)
-  -  
+    
   -  [`DisplayProductsServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductsServlet.java)
-  -  
+    
   -  [`ReportServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportServlet.java)
-  -  
+     
   -  [`ReportCriteriaServlet.java`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportCriteriaServlet.java)
 
 ---
@@ -87,15 +87,15 @@ com/
 Place all `.jsp` and frontend files inside the `WebContent/` directory.
 
 *  [`index.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/index.jsp)
-*  
+   
 *  [`addProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productadd.jsp)
-*  
+  
 *  [`updateProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productupdate.jsp)
-*  
+  
 *  [`deleteProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdelete.jsp)
-*  
+   
 *  [`displayProduct.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/productdisplay.jsp)
-*  
+  
 *  [`report_form.jsp`](https://github.com/chethanlr/ADJ_ProductManagment/blob/main/webapp/report_form.jsp)
 
 ---
