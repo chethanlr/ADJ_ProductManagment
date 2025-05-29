@@ -1,4 +1,4 @@
-# Installation Guide for College Fee Management System (JSP + Servlet + MySQL)
+# Installation Guide for Product Management System (JSP + Servlet + MySQL)
 
 ✅ STEP 1: Create the Database
 First, open your MySQL client (like XAMPP/phpMyAdmin).
@@ -43,13 +43,14 @@ Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/Product
 
 Add the following files:
 
-AddFeePaymentServlet.java
+AddProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/AddProductServlet.class
 
-UpdateFeePaymentServlet.java
+UpdateproductServlet.java : 
+https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/updateProductServlet.class
 
-DeleteFeePaymentServlet.java
+DeleteProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/deleteProductServlet.class
 
-DisplayFeePaymentsServlet.java
+DisplayProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/displayProductServlet.class
 
 ReportServlet.java
 
