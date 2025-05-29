@@ -43,19 +43,19 @@ Add: https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/dao/Product
 
 Add the following files:
 
-AddProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/AddProductServlet.class
+AddProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/AddProductServlet.java
 
 UpdateproductServlet.java : 
-https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/UpdateProductServlet.class
+https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/UpdateProductServlet.java
 
-DeleteProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DeleteProductServlet.class
+DeleteProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DeleteProductServlet.java
 
-DisplayProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductsServlet.class
+DisplayProductServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/DisplayProductsServlet.java
 
 ReportServlet.java :
-https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportServlet.class
+https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportServlet.java
 
-ReportCriteriaServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportCriteriaServlet.class
+ReportCriteriaServlet.java : https://github.com/chethanlr/ADJ_ProductManagment/blob/main/com/servlet/ReportCriteriaServlet.java
 
 ✅ STEP 4: Add Front-End Files (JSP, HTML, CSS)
 Go to WebContent folder
