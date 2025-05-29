@@ -7,7 +7,7 @@ First, open your MySQL client (like XAMPP/phpMyAdmin).
 inventory 
 
 Then import the following SQL file into your database:
-Download SQL File
+https://github.com/chethanlr/ADJ_ProductManagment/blob/main/mysqlconnection.sql
 
 ✅ STEP 2: Set Up the Project in Eclipse
 1. Create a New Dynamic Web Project
